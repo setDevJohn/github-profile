@@ -9,8 +9,12 @@ const screen = {
                                         </div>
                                       </div>`
 
-        let repositoriesItens = ""
+        this.userProfile.innerHTML += `<div class="followers">
+                                        <h3>Seguidores: ${user.followers}</h3>
+                                        <h3>Seguindo: ${user.following}</h3>
+                                      </div>`
 
+        let repositoriesItens = ""
         user.repositories.forEach(repo => {
             repositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`
         })
