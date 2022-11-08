@@ -122,6 +122,16 @@ main {
   line-height: 23px;
 }
 
+/* FOLLOWERS */
+
+.container .profile-data .followers{
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	text-align: left;
+	margin: 30px 40px;
+}
+
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
