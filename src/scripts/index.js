@@ -33,6 +33,8 @@ async function getData(userName) {
     const userResponse = await getUser(userName)
     const repositoriesResponse = await getRepositories(userName)
     const eventsResponse = await getEvents(userName)
+    
+    console.log(repositoriesResponse);
 
     if(userResponse.message === "Not Found"){
         screen.renderNotFound()
@@ -44,5 +46,6 @@ async function getData(userName) {
     user.setEvents(eventsResponse)
 
     screen.renderUser(user)
+    screen.renderRepositories(user)
     screen.renderEvents(user)
 }

@@ -13,15 +13,26 @@ const screen = {
                                         <h3>Seguidores: ${user.followers}</h3>
                                         <h3>Seguindo: ${user.following}</h3>
                                       </div>`
-
-        let repositoriesItens = ""
+	},
+	renderRepositories(user){
+		let repositoriesItens = "";
         user.repositories.forEach(repo => {
-            repositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`
+            repositoriesItens += `<li>
+									<a href="${repo.html_url}" target="_blank">
+									  	<h3>${repo.name}</h3>
+										<ul class="repositories-info">
+											<li>🍴${repo.forks_count}</li>
+											<li>⭐${repo.stargazers_count}</li>
+											<li>👀${repo.watchers_count}</li>
+											<li>👩‍💻${repo.language ?? ''}</li>
+										</ul>
+									</a>
+								  </li>`
         })
         this.userProfile.innerHTML += `<div class="repositories section">
-                                          <h2>Repositories</h2>
-                                          <ul>${repositoriesItens}</ul>
-                                       </div>`
+                                		<h2>Repositories</h2>
+                                        <ul>${repositoriesItens}</ul>
+                                      </div>`   
     },
 	renderEvents(user){
 		let eventItens = '';
