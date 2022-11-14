@@ -6,12 +6,8 @@ const screen = {
                                         <div>
                                           <h1>${user.name ?? 'Não possui nome cadastrado 😢'}</h1>
                                           <p>${user.bio ?? 'Não possui bio cadastrada 😢'}</p>
+										  <p>Seguidores: ${user.followers}  Seguindo: ${user.following}</p>
                                         </div>
-                                      </div>`
-
-        this.userProfile.innerHTML += `<div class="followers">
-                                        <h3>Seguidores: ${user.followers}</h3>
-                                        <h3>Seguindo: ${user.following}</h3>
                                       </div>`
 	},
 	renderRepositories(user){
@@ -29,7 +25,7 @@ const screen = {
 									</a>
 								  </li>`
         })
-        this.userProfile.innerHTML += `<div class="repositories section">
+        this.userProfile.innerHTML += `<div class="repositories">
                                 		<h2>Repositories</h2>
                                         <ul>${repositoriesItens}</ul>
                                       </div>`   
