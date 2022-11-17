@@ -46,6 +46,12 @@ const screen = {
 	},
 	renderNotFound(){
 		this.userProfile.innerHTML = "Usuário não encontrado" 
+	},
+	renderNotFoundEvents(){
+		this.userProfile.innerHTML += `<div class="events">
+										<h2>Eventos</h2>
+										<p>O usuário não possui eventos recentes</p>
+	  								  </div>`
 	}
 }
 
