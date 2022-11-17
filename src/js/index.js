@@ -38,12 +38,18 @@ async function getData(userName) {
         screen.renderNotFound()
         return
     }
-
+    
     user.setInfo(userResponse)
     user.setRepositories(repositoriesResponse)
     user.setEvents(eventsResponse)
-
+    
     screen.renderUser(user)
     screen.renderRepositories(user)
-    screen.renderEvents(user)
+
+    if(eventsResponse.length === 0){
+        screen.renderNotFoundEvents()
+        return
+    }else{
+        screen.renderEvents(user)
+    }
 }
