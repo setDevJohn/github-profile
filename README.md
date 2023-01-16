@@ -1,5 +1,5 @@
 # Projeto fetch usando API do Github
-Um site que faz requisições, usando API do Github para mostrar infomações sobre usuário e seus repositórios 
+Um site que faz requisições, usando API do Github para mostrar informações sobre usuário e seus repositórios 
 
 ## 🔗 Acesso ao projeto
 [<img src="src/gif/tela.gif">](https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/)
