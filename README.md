@@ -2,6 +2,8 @@
 Um site que faz requisições, usando API do Github para mostrar informações sobre usuário e seus repositórios 
 
 ## 🔗 Acesso ao projeto
+<a href="https://jhonyfreitasdev.github.io/projeto-ferch-com-api-do-github/">Clique aqui para ir para a página</a>
+
 [<img src="src/gif/tela.gif">](https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/)
 
 ## 🛠 Skills
