@@ -1,5 +1,5 @@
 # Projeto fetch usando API do Github
-Um site que faz requisições, usando API do Github para mostrar informações sobre usuário e seus repositórios 
+Nesse site eu faço um request da Api do GitHub, e renderizo informações do perfil solicitado, como repositórios, seguidores e eventos.
 
 ## 🔗 Acesso ao projeto
 <a href="https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/">Clique aqui para ir para a página</a>
@@ -14,4 +14,15 @@ Um site que faz requisições, usando API do Github para mostrar informações s
 </div>
 
 ## 📤 Feedback
-Se você tiver algum feedback, entre em contato comigo em jhony00._@hotmail.com
+Se interessou pelo meu trabalho ou tem algum feedback? <br/> 
+Entre em contato comigo:
+<br/>
+ 
+<p align="left"> 
+ <a href="https://www.linkedin.com/in/jhony-freitas/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="40" height="35" /></a>
+ <a href ="https://api.whatsapp.com/send?phone=5511948127577&text" target="_blank" rel="noreferrer"><img src="whatsapp.png" width="40" height="35" /></a>
+ <a href ="mailto:jhony00._@hotmail.com" target="_blank" rel="noreferrer"><img src="email-icone.png" width="40" height="35" /></a>
+ <a href="http://www.instagram.com/_jhonyfreitass" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="40" height="35" /></a> 
+ <a href="https://discord.com/users/jhonyFreitas#1359" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="40" height="35" /></a> 
+
+ </p>
