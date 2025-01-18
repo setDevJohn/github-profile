@@ -2,9 +2,9 @@
 Nesse site eu faço um request da Api do GitHub, e renderizo informações do perfil solicitado, como repositórios, seguidores e eventos.
 
 ## 🔗 Acesso ao projeto
-<a href="https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/">Clique aqui para ir para a página</a>
+<a href="https://setdevjohn.github.io/github-profile/">Clique aqui para ir para a página</a>
 
-[<img src="src/gif/tela.gif">](https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/)
+[<img src="src/gif/tela.gif">](https://setdevjohn.github.io/github-profile/)
 
 ## 🛠 Skills
 <div style="display: inline_block"><br>
